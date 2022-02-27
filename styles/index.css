@@ -183,6 +183,34 @@ a {
   font-weight: 500;
 }
 
+.header-two {
+  text-align: center;
+  width: 80%;
+  border-bottom: 3px solid #E71A29;
+  margin-left: 10%;
+  font-size: 3rem;
+}
+
+#cocktails-and-mixes--section p {
+  text-align: center;
+}
+
+.header-two {
+  text-align: center;
+  width: 90%;
+  border-bottom: 3px solid #E71A29;
+  margin-left: 5%;
+  font-size: 2rem;
+}
+
+.menu-btn-div {
+  width: 100%;
+}
+
+.menu-btn {
+  width: 300px;
+}
+
 @media screen and (max-width: 500px) {
   #top-section {
     height: 100vh;
@@ -261,12 +289,29 @@ a {
   .description-one-div {
     width: 100%;
   }
+  .description-one, .description-one-div p, #cocktails-and-mixes--section p {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
   .header-one {
     text-align: center;
-    width: 80%;
+    width: 90%;
     border-bottom: 3px solid #E71A29;
-    margin-left: 10%;
+    margin-left: 5%;
     font-size: 2rem;
+  }
+  #cocktails-and-mixes--section p {
+    text-align: center;
+  }
+  .header-two {
+    text-align: center;
+    width: 90%;
+    border-bottom: 3px solid #E71A29;
+    margin-left: 5%;
+    font-size: 2rem;
+  }
+  .menu-btn {
+    width: 300px;
   }
 }
 /*# sourceMappingURL=index.css.map */
